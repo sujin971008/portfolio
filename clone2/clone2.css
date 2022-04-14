@@ -1,0 +1,322 @@
+*{
+font-family: Verdana,sans-serif;
+letter-spacing: 4px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.nav{
+    position: fixed;
+    height: 40px;
+    background-color: #FFF;
+    width: 100%;
+    padding: 8px 16px;
+    z-index: 1000;
+    box-shadow: 2px 0 9px rgb(32, 31, 31);
+   
+}
+
+.nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+}
+.nav a:hover{
+    background-color: rgba(224, 217, 217, 0.959);
+}
+.left{
+    padding: 8px 16px;
+    float: left;
+    display: block;
+}
+.right{
+    padding: 0 40px 0 0;
+}
+.pr{
+    display: block;
+    padding: 8px 16px;
+    float: right;
+}
+.ab{
+    display: block;
+    padding: 8px 16px;
+    float: right;
+}.co{
+    display: block;
+    padding: 8px 16px;
+    float: right;
+}
+.bar{
+    clear: both;
+    float: none;
+}
+#header{
+    position: relative;
+    margin: auto;
+    width: 1500px;
+     height: 800px; 
+}
+img.img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+h1.logo{
+    color: #FFF;
+    font-size: 35px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: auto;
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    left: 600px;
+    top:400px
+}
+span.br{
+    background-color: #000;
+    padding: 15px 0px 15px 15px;
+    opacity: 80%;
+   
+}
+
+span.ar{
+    padding: 0  0 0 10px;
+}
+/* 컨텐츠 */
+div.content{
+    padding: 8px 16px;
+    color: #000;
+    font-size: 15px;
+    margin: auto;
+   height: 2850px; 
+
+}
+
+div#project{
+    padding: 32px 16px;
+    font-size: 15px;
+}
+#project > h3 {
+    padding: 16px 0;
+    font-size: 24px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin-left: 20px;
+    
+
+}
+.content .photo{
+   
+    height: 178px;
+    width: 116%;
+    font-size: 15px;
+    margin-left: 20px;
+   
+}
+
+div.photo :before{
+    content:"";
+    display: table;
+    clear:both;
+    box-sizing: inherit;
+
+}
+
+div.photo :after{
+    box-sizing: inherit;
+    content:"";
+    display: table;
+    clear:both;
+}
+/*  */
+.photo > .house{
+    float: left;
+    margin: 0 0 16px;
+    padding: 0px 8px;
+   width: 20%;
+}
+.photo {
+    clear: both;
+    float: none;
+}
+
+div.img{
+    position: relative;
+}
+div.ment{
+    position: absolute;
+    background-color: #000;
+    color: #FFF;
+    padding: 8px 15px;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0;
+    
+}
+div#about{
+    color: #000;
+    padding: 100px 30px 50px 30px;
+
+}
+.about:before{
+content: "";
+display: block;
+clear: both;
+float: none;
+}
+    
+#about > h3{
+    font-size: 24px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    margin:10px 0px;
+    padding: 40px 0 30px 0;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+#about p{
+    margin: 15px 0;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+.person{
+    padding: 0 8px 0 15px;
+    color: #000;
+    margin: auto;
+    filter: grayscale(70%);
+}
+
+div.person :before{
+    content:"";
+    display: table;
+    clear:both;
+    box-sizing: inherit;
+
+}
+
+div.person :after{
+    box-sizing: inherit;
+    content:"";
+    display: table;
+    clear:both;
+}
+.person > .p{
+    margin: auto;
+    padding: 0 8px;
+    width: 360px;
+    display: inline-block;
+}
+.p img{
+    width: 100%;
+    height: 100%;
+}
+
+.p h3{
+    font-size: 24px;
+    margin: 10px 0;
+    font-family:"Segoe UI",Arial,sans-serif;
+    font-weight: 500; 
+}
+.p p{
+    margin: 15px 0;
+    letter-spacing: 0;
+   
+}
+.job{
+    color: rgb(97, 93, 93);
+}
+
+.p .button{
+    padding: 8px 16px;
+    margin: auto;
+    display: block;
+    letter-spacing: 0;
+    border: 0;
+    outline: 0s;
+
+}
+.contact{
+    padding: 32px 16px;
+    width: 1530px;
+    height: 492px;
+}
+.contact h3{
+    margin: 10px 0;
+    padding: 16px 0;
+    font-size: 24px;
+    font-family:"Segoe UI",Arial,sans-serif;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.contact p{
+    margin: 15px 0;
+    letter-spacing: 0;
+
+}
+#contact form{
+display: block;
+}
+#contact input{
+    margin: 16px 0;
+    padding: 8px;
+    width: 100%;
+    display: block;
+    letter-spacing: 0;
+    outline: 1px solid lightgray;
+    border:0;
+}
+
+#contact button{
+display: block;
+margin: 16px 0;
+float: left;
+background-color: #000;
+color: #FFF;
+border: none;
+outline: 0;
+box-shadow: none;
+letter-spacing: 0;
+width: 150px;
+height: 40px;
+font-size: 15px;
+}
+.contact .button:before{
+    content: "";
+    display: block;
+    clear: both;
+    float: none;
+}
+
+.map{
+    display: block;
+    width: 1550px;
+     height: 260px; 
+    margin: auto;
+    padding: 0.15px 16px;
+    bottom: 90px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    bottom: 0;
+    color: #FFF;
+    display: block;
+    padding: 8px 16px;
+    z-index: 1000;
+    
+}
+.footer p{
+    padding-top: 20px ;
+    text-align: center;
+
+}
