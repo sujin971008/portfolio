@@ -215,7 +215,6 @@ form > .button{
 }
 button:hover{
     background-color: #ccc;
-    margin: auto;
 }
 footer{
     padding: 32px 0;
