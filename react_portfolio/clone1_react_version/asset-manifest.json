@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/portfolio/react_portfolio/clone1_react_version/static/js/main.26fbd514.js",
+    "static/media/hamburger.jpg": "/portfolio/react_portfolio/clone1_react_version/static/media/hamburger.300dd093a187195c5883.jpg",
+    "static/media/tablesetting.jpg": "/portfolio/react_portfolio/clone1_react_version/static/media/tablesetting.a72da3cc51e0cc4db6d2.jpg",
+    "static/media/tablesetting2.jpg": "/portfolio/react_portfolio/clone1_react_version/static/media/tablesetting2.ab0b5834d17daa7669cd.jpg",
+    "index.html": "/portfolio/react_portfolio/clone1_react_version/index.html",
+    "main.26fbd514.js.map": "/portfolio/react_portfolio/clone1_react_version/static/js/main.26fbd514.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.26fbd514.js"
+  ]
+}
