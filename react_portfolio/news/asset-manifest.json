@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/portfolio/react_portfolio/news/static/js/main.5c62beba.js",
+    "index.html": "/portfolio/react_portfolio/news/index.html",
+    "main.5c62beba.js.map": "/portfolio/react_portfolio/news/static/js/main.5c62beba.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5c62beba.js"
+  ]
+}
