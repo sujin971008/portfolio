@@ -1,197 +1,196 @@
-*{
-    font-size: 15px;
-    line-height: 1.5;
-    margin: auto;
-    font-family: "Karma", sans-serif;
+* {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: auto;
+  font-family: "Karma", sans-serif;
 }
-body{
-    margin: 0;
-    padding: 0;
-    height: 100%;
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
-header{
-    position: fixed;
-    height: 70px;
-    background-color: #FFF;
-    width: 100%;
-    z-index: 1000;
-    top: 0;
-    font-weight: 100;
-
+header {
+  position: fixed;
+  height: 70px;
+  background-color: #fff;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  font-weight: 100;
 }
-header > .Top{
-position: relative;
-
+header > .Top {
+  position: relative;
 }
-.Sidebar{
-left: 0;
-padding: 12px 16px;
-position: absolute;
-font-size: 24px;
-top:1;
+.Sidebar {
+  left: 0;
+  padding: 12px 16px;
+  position: absolute;
+  font-size: 24px;
+  top: 1;
 }
-.My_Food{
-text-align: center;
-font-size: 24px;
-padding: 12px 0;
-
+.Sidebar:hover {
+  cursor: pointer;
+  background-color: lightgray;
 }
-.Mail{
-font-size: 24px;
-padding: 12px 0;
-position: absolute;
-top:0;
-right: 0;
+.My_Food {
+  text-align: center;
+  font-size: 24px;
+  padding: 12px 0;
 }
-.section{
-    height: 2600px;
-    padding: 8px 16px;
-    margin-top: 100px;
-
+.Mail {
+  font-size: 24px;
+  padding: 12px 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
-.photo{
-    display: table;
-    padding: 16px 8px;
-    box-sizing: border-box;
-    height: 622pxs;
-
+.section {
+  height: 2600px;
+  padding: 8px 16px;
+  margin-top: 100px;
 }
-.photo .ph{
-    display: table-cell;
-    padding: 0 8px;
-    box-sizing: border-box;
-    width: 24.9%;
-    text-align: center;
+.photo {
+  display: table;
+  padding: 16px 8px;
+  box-sizing: border-box;
+  height: 622pxs;
 }
-.ph h3{
-    font-size: 24px;
-    padding: 10px 0;
-    font-weight: 300;
+.photo .ph {
+  display: table-cell;
+  padding: 0 8px;
+  box-sizing: border-box;
+  width: 24.9%;
+  text-align: center;
 }
-.ph p{
-    padding: 15px 0s;
-    font-size: 15px;
+.ph h3 {
+  font-size: 24px;
+  padding: 10px 0;
+  font-weight: 300;
 }
-.page{
-    text-align: center;
-    padding: 32px 0;
+.ph p {
+  padding: 15px 0s;
+  font-size: 15px;
 }
-.number{
-    height: 50px;
+.page {
+  text-align: center;
+  padding: 32px 0;
 }
-.number a{
-    padding: 8px 16px;
-    color:black;
+.number {
+  height: 50px;
 }
-.number a[href="#black"]{
-    background-color: black;
-    color: #FFF;
+.number a {
+  padding: 8px 16px;
+  color: black;
 }
-.number a[href="#"]:hover{
-    background-color: black;
-    color: #FFF;
+.number a[href="#black"] {
+  background-color: black;
+  color: #fff;
 }
-.number a[href="#black"]:hover{
-    background-color: lightgray;
-    color: black;
+.number a[href="#"]:hover {
+  background-color: black;
+  color: #fff;
 }
-.about{
-    text-align: center;
-    padding: 32px 16px;
+.number a[href="#black"]:hover {
+  background-color: lightgray;
+  color: black;
 }
-.about h3{
-    font-size: 24px;
-    font-weight: 200;
-    margin: 10px 0;
+.about {
+  text-align: center;
+  padding: 32px 16px;
 }
-hr{
-    border: 1px solid #eee;
-    margin: 20px 0;
+.about h3 {
+  font-size: 24px;
+  font-weight: 200;
+  margin: 10px 0;
 }
-.txt{
-    padding: 32px 0;
+hr {
+  border: 1px solid #eee;
+  margin: 20px 0;
 }
-.txt h4,h6{
-    margin: 10px 0;
+.txt {
+  padding: 32px 0;
 }
-.txt b{
-    font-size: 20px;
-    font-weight: 600;
+.txt h4,
+h6 {
+  margin: 10px 0;
 }
-.txt p{
-    margin: 15px;
-    font-weight: 100;
+.txt b {
+  font-size: 20px;
+  font-weight: 600;
 }
-.txt i{
-    font-size: 16px;
-    font-weight: 100;
+.txt p {
+  margin: 15px;
+  font-weight: 100;
 }
-footer{
-    padding: 32px 8px;
-    height: 150px;
-    box-sizing: border-box;
-    display: table;
+.txt i {
+  font-size: 16px;
+  font-weight: 100;
 }
-.part{
-    padding: 0 8px;
-    display: block;
-    box-sizing: border-box;
-    width: 33.333%;
-    float: left;
+footer {
+  padding: 32px 8px;
+  height: 150px;
+  box-sizing: border-box;
+  display: table;
 }
-.part::after{
-    float: none;
-    clear: both;
+.part {
+  padding: 0 8px;
+  display: block;
+  box-sizing: border-box;
+  width: 33.333%;
+  float: left;
 }
-.part h3{
-    margin: 10px 0;
-    font-size: 24px;
-    font-weight: 300;
+.part::after {
+  float: none;
+  clear: both;
 }
-.part p{
-    margin: 15px 0; 
-    font-weight: 100;
+.part h3 {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: 300;
 }
-.part ul{
-    padding: 0;
+.part p {
+  margin: 15px 0;
+  font-weight: 100;
 }
-.posts{
-    list-style: none;
-    padding: 16px;
-    cursor: pointer;
+.part ul {
+  padding: 0;
 }
-.posts:hover{
-background-color: lightgray;
+.posts {
+  list-style: none;
+  padding: 16px;
+  cursor: pointer;
 }
-.posts img{
-    display: block;
-    float: left;
-    margin: 0 15px 0 0;
+.posts:hover {
+  background-color: lightgray;
 }
-.posts img::after{
-    float: none;
-    clear: both;
+.posts img {
+  display: block;
+  float: left;
+  margin: 0 15px 0 0;
 }
-.txt{
-    font-size: 18px;
+.posts img::after {
+  float: none;
+  clear: both;
 }
-.posts .txt2{
-    font-weight: 100;
+.txt {
+  font-size: 18px;
 }
-.tags span{
-margin: 0 0 16px;
-padding: 0 8px;
-display: inline-block;
-letter-spacing: 1.5px;
+.posts .txt2 {
+  font-weight: 100;
 }
-.black{
-    background-color: black;
-    color: #eee;
-    font-size: 16px;
+.tags span {
+  margin: 0 0 16px;
+  padding: 0 8px;
+  display: inline-block;
+  letter-spacing: 1.5px;
 }
-.grey{
-    background-color: gray;
-    color: #eee;
-    font-size: 12px;
-
+.black {
+  background-color: black;
+  color: #eee;
+  font-size: 16px;
+}
+.grey {
+  background-color: gray;
+  color: #eee;
+  font-size: 12px;
 }
